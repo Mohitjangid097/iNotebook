@@ -27,7 +27,6 @@ function App() {
   return (
     <>
       <NoteState>
-        {/* <Alert message="alert aagyega yha" /> */}
         <BrowserRouter>
           <Navbar />
           <Alert alert={alert}/>
